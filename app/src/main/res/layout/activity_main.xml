@@ -1,0 +1,82 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <TextView android:text="My Nano Degree App"
+        android:textSize="24sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="38dp"/>
+    <Button
+        android:id="@+id/popular_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Popular Movies , Stage 1"
+        android:background="@android:color/holo_orange_dark"
+        android:onClick="submitOnClick"/>
+
+    <Button
+        android:id="@+id/popular2_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Popular Movies , Stage 2"
+        android:background="@android:color/holo_orange_dark"
+        android:layout_marginTop="16dp"
+        android:onClick="submitOnClick"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:background="@android:color/holo_orange_dark"
+        android:layout_marginTop="16dp"
+        android:layout_height="wrap_content"
+        android:text="Super Duo"
+        android:onClick="submitOnClick"/>
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_orange_dark"
+        android:layout_marginTop="16dp"
+        android:onClick="submitOnClick"
+        android:text="Build It Bigger"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_orange_dark"
+        android:layout_marginTop="16dp"
+        android:onClick="submitOnClick"
+
+        android:text="Make Your App Material"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_orange_dark"
+        android:layout_marginTop="16dp"
+        android:onClick="submitOnClick"
+
+        android:text="Go Ubiquitos"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_orange_dark"
+        android:layout_marginTop="16dp"
+        android:text="Capstone Stage 1 - Design"
+        android:onClick="submitOnClick"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_orange_dark"
+        android:layout_marginTop="16dp"
+        android:text="Capstone Stage 2 - Build"
+        android:onClick="submitOnClick"
+        />
+
+</LinearLayout>
